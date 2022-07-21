@@ -1,4 +1,5 @@
 # publicFriendsList
 
-MERN CRUD project where you can add friends to a mongo database, the avatars come from the Dice Bear API. 
+CRUD application using the MERN stack where you can add/remove/edit friends in a mongo database, the avatars are randomly generated using the Dice Bear API.
+
 ![Screenshot](preview.png)

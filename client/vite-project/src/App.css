@@ -1,0 +1,135 @@
+* {
+  font-family: monospace;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+body {
+  /*just to clean the borders around .inputs*/
+  margin: 0;
+  padding: 0;
+}
+
+.inputs {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /*makes it stack since it's now a column*/
+  background-color: rgb(0, 0, 0);
+}
+
+/* .inputs input {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px; /* so I don't start writing too close to the left inside the input*/
+
+
+.friend-name {
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px;
+
+}
+
+.friend-age {
+  width: 60px;
+  height: 30px;
+  font-size: 12px;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.inputs textarea {
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.inputs button {
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: rgb(10, 95, 192);
+  box-shadow: 1px 1px 1px 1px rgb(14, 29, 46);
+}
+
+.friend {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(32, 120, 221);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.friend h3, h6 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.friends-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.friend-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+
+
+.friend-container button {
+  width: 80px;
+  height: 60px;
+  
+  background-color: rgb(32, 120, 221);
+  color: white;
+}
+
+#remove-button {
+  border-left: none;
+}
+
+#title {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.update-button{
+  height: 200px;
+}
+
+.friends-card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
